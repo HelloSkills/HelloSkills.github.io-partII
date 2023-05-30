@@ -66,7 +66,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 573px;
-    height: 41px;
+    height: 36px;
     padding-top: 10px;
     cursor: pointer;
 
@@ -227,6 +227,12 @@ body {
 
 .dates-items-date {
     background: #FFFFFF;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #18181B;
 }
 
 .table__dates-items.closed {
@@ -309,13 +315,16 @@ body {
 }
 
 .dates-items-comment,
-.items-comment-inner.long {
+.items-comment-inner.long,
+.items-comment-inner.item {
     width: 358px;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI-semibold';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    /* or 24px */
+    color: #18181B;
 }
 
 .items-comment-inner.item {
