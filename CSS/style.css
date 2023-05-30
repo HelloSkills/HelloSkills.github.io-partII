@@ -182,6 +182,9 @@ body {
 
 }
 
+.dates-items-price {
+    margin-bottom: 4px;
+}
 
 .table__header-item.long,
 .dates-items-comment,
@@ -236,11 +239,14 @@ body {
     color: #783CBD;
 }
 
-.items-number-inner.first {
+.items-number-inner.first,
+.dates-items-price.first,
+.dates-items-percent.first {
     margin-bottom: 48px;
 }
 
-.items-number-inner {
+.items-number-inner,
+.dates-items-percent {
     margin-bottom: 4px;
 }
 
@@ -271,6 +277,7 @@ body {
 .dates-items-comment {
     display: flex;
     align-items: center;
+    
 }
 
 .dates-items-long {
