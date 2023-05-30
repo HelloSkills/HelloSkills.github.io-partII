@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="IMG/Icon.svg" rel="shortcut icon">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>DevTest2023 Part II</title>
+</head>
+
+<body>
+
+    <div class="container__main">
+
+        <div class="header">
+            <div class="header__items-left">
+                <div class="items-left">Главная</div>
+                <div class="items-left">Экспорт отчётов</div>
+                <div class="items-left">Инструменты</div>
+                <div class="items-left">Ресурсы</div>
+                <div class="items-left">Финансы</div>
+            </div>
+
+            <div class="header__items-right">
+                <svg class="items-right" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M4.48511 5C4.85118 4.22321 5.83895 3.66667 7.00004 3.66667C8.4728 3.66667 9.6667 4.5621 9.6667 5.66667C9.6667 6.59963 8.81496 7.38338 7.66285 7.6044C7.30125 7.67377 7.00004 7.96514 7.00004 8.33333M7 10.3333H7.00667M13 7C13 10.3137 10.3137 13 7 13C3.68629 13 1 10.3137 1 7C1 3.68629 3.68629 1 7 1C10.3137 1 13 3.68629 13 7Z" stroke="#783CBD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                <a href="#" class="items-right">Помощь</a>
+            </div>
+
+        </div>
+
+        <div class="history">История начислений</div>
+
+        <div class="icon__container">
+            <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                <rect width="44" height="44" rx="8" fill="#EBE2F5"/>
+                <path d="M18 17V13M26 17V13M17 21H27M15 31H29C30.1046 31 31 30.1046 31 29V17C31 15.8954 30.1046 15 29 15H15C13.8954 15 13 15.8954 13 17V29C13 30.1046 13.8954 31 15 31Z" stroke="#783CBD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+                <svg class="download__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M4 16L4 17C4 18.6569 5.34315 20 7 20L17 20C18.6569 20 20 18.6569 20 17L20 16M16 12L12 16M12 16L8 12M12 16L12 4" stroke="#71717A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+        </div>
+
+
+        <div class="table__container">
+
+            <div class="table__header">
+                <div class="table__header-item">Дата операции</div>
+                <div class="table__header-item">Номера заказов</div>
+                <div class="table__header-item">Стоимость товаров</div>
+                <div class="table__header-item">Процентная ставка</div>
+                <div class="table__header-item">Вознаграждение</div>
+                <div class="table__header-item long">Комментарий</div>
+            </div>
+
+
+            <div class="table__dates">
+
+                <div class="table__dates-items closed"> <!-- 1 -->
+                    <div class="dates-items-date">21.03.2023</div>
+                    <div class="dates-items-number">
+                        <div class="items-number-inner">123345456</div>
+                        <div class="items-number-inner flex">
+                            <div class="number-inner-items">Ещё 12</div>
+                            <svg class="number-inner-items svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M12.6667 6L8.00004 10.6667L3.33337 6" stroke="#783CBD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                           
+                        </div>
+                    </div>
+                    <div class="dates-items-price">1 234 ₽</div>
+                    <div class="dates-items-percent">100%</div>
+                    <div class="dates-items-rewards">1 234 ₽</div>
+                    <div class="dates-items-comment">Отказ от заказа</div>
+
+                </div>
+
+                <div class="table__dates-items open"> <!-- 2 -->
+
+                    <div class="dates-items-date">21.03.2023</div>
+                    <div class="dates-items-number">
+                        <div class="items-number-inner first">123345456</div>
+                        <div class="items-number-inner">123345456</div>
+                        <div class="items-number-inner">123345456</div>
+                        
+                        <div class="items-number-inner flex">
+                            <div class="number-inner-items hiden">Скрыть</div>
+                            <svg class="number-inner-items svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3.33329 10L7.99996 5.33333L12.6666 10" stroke="#71717A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </div>
+                    </div>
+                    <div class="dates-items-price">1 234 ₽</div>
+                    <div class="dates-items-percent">100%</div>
+                    <div class="dates-items-rewards">1 234 ₽</div>
+                    <div class="dates-items-long">
+                        <div class="items-comment-inner long">Комментарий может быть длинным. Перебрасываем на следующую строчку Комментарий может быть длинным. </div>
+                        <div class="items-comment-inner item">Отказ от заказа</div>
+                    </div>
+
+                </div>
+
+                <div class="table__dates-items closed"> <!-- 3 -->
+                    <div class="dates-items-date">21.03.2023</div>
+                    <div class="dates-items-number">
+                        <div class="items-number-inner">123345456</div>
+                        <div class="items-number-inner flex">
+                            <div class="number-inner-items">Ещё 12</div>
+                            <svg class="number-inner-items svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M12.6667 6L8.00004 10.6667L3.33337 6" stroke="#783CBD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </div>
+                    </div>
+                    <div class="dates-items-price">1 234 ₽</div>
+                    <div class="dates-items-percent">100%</div>
+                    <div class="dates-items-rewards">1 234 ₽</div>
+                    <div class="dates-items-comment">Отказ от заказа</div>
+
+                </div>
+
+                <div class="table__dates-items closed"> <!-- 4 -->
+                    <div class="dates-items-date">21.03.2023</div>
+                    <div class="dates-items-number">
+                        <div class="items-number-inner">123345456</div>
+                        <div class="items-number-inner flex">
+                            <div class="number-inner-items">Ещё 12</div>
+                            <svg class="number-inner-items svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M12.6667 6L8.00004 10.6667L3.33337 6" stroke="#783CBD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </div>
+                    </div>
+                    <div class="dates-items-price">1 234 ₽</div>
+                    <div class="dates-items-percent">100%</div>
+                    <div class="dates-items-rewards">1 234 ₽</div>
+                    <div class="dates-items-comment">Отказ от заказа</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="total__price">
+            <div class="price__total-rewards">
+                <div class="total-rewards-text">
+                    <div class="total-rewards-text-wrapper">Итого для операций «выплата вознаграждения»</div>
+                </div>
+                <div class="total-rewards-sum">243 567,00 ₽</div>
+            </div>
+
+            <div class="price__adjustments">
+                <div class="adjustments-text">Итого для операций «Корректировки»</div>
+                <div class="adjustments-sum">-1 234,00 ₽</div>
+            </div>
+
+            <div class="price__all">
+                <div class="price__all-text">Итого</div>
+                <div class="price__all-sum">243 567,00 ₽</div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html

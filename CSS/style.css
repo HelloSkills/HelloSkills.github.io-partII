@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Local Fonts */
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url(../Fonts/Segoe\ UI.woff2);
+    src: url(../Fonts/Segoe\ UI.woff);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Segoe UI-SemiBold";
+    src: url(../Fonts/SegoeUI-SemiBold.woff2);
+    src: url(../Fonts/SegoeUI-SemiBold.woff);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Segoe UI-Regular";
+    src: url(../Fonts/SegoeUI-Regular.woff2);
+    src: url(../Fonts/SegoeUI-Regular.woff);
+    font-weight: 100;
+}
+
+/* Main CSS */
+
+body {
+    background: #F6F6F6;
+}
+
+.container__main {
+    margin: 50px 159px;
+    width: 1602px;
+}
+
+/* Header Start */
+
+.header {
+    font-family: "Segoe UI-Semibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    height: 54px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 0 10px;
+
+    color: #A1A1AA;
+    margin-bottom: 20px;
+
+
+
+}
+
+.header__items-left {
+    display: flex;
+    justify-content: space-between;
+    width: 573px;
+    height: 41px;
+    padding-top: 10px;
+    cursor: pointer;
+
+
+}
+
+.items-left {
+    height: 38px;
+}
+
+.items-left:hover {
+    color: #783CBD;
+    border-bottom: 3px solid #783CBD;
+
+
+}
+
+
+.header__items-right a {
+    color: #783CBD;
+    text-decoration: none;
+    font-family: "Segoe UI-Semibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.header__items-right {
+    cursor: pointer;
+}
+
+/* Header End */
+
+.history {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #18181B;
+    margin-bottom: 20px;
+}
+
+.icon__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.button__icon,
+.download__icon {
+    cursor: pointer;
+}
+
+/* Table Start */
+
+.table__container {
+    background: #FFFFFF;
+    position: relative;
+    /* width: 1602px; */
+
+    /* padding: 10px 20px; */
+}
+
+
+.table__header {
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: inset 0px -2px 0px #E5E7EB;
+    padding: 10px 20px;
+    max-height: 44px;
+
+}
+
+.table__header-item {
+    width: 220px;
+    margin-right: 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F46;
+}
+
+.table__header-item.long {
+    width: 362px;
+}
+
+.dates-items {}
+
+.table__dates-items {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 20px;
+
+}
+
+.dates-items-date,
+.dates-items-number,
+.dates-items-price,
+.dates-items-percent,
+.dates-items-rewards,
+.dates-items-comment,
+.items-number-inner,
+.dates-items-long {
+    margin-right: 20px;
+    width: 220px;
+    height: 24px;
+    background: #F5F3FF;
+
+}
+
+
+.table__header-item.long,
+.dates-items-comment,
+.dates-items-long {
+    margin-right: 0;
+    width: 362px;
+    background: #FFFFFF;
+}
+
+
+.dates-items-comment,
+.items-comment-inner.item,
+.items-comment-inner.long {
+
+    background: #F5F3FF;
+}
+
+.items-comment-inner.item {
+    width: 358px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* background: #F5F3FF; */
+}
+
+.dates-items-date {
+    background: #FFFFFF;
+}
+
+.table__dates-items.closed {
+    height: 68px;
+    box-shadow: inset 0px -1px 0px #E5E7EB;
+}
+
+.table__dates-items.open {
+    height: 168px;
+    box-shadow: inset 0px -1px 0px #E5E7EB;
+}
+
+.items-number-inner.flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #FFFFFF;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #783CBD;
+}
+
+.items-number-inner.first {
+    margin-bottom: 48px;
+}
+
+.items-number-inner {
+    margin-bottom: 4px;
+}
+
+.items-number-inner,
+.dates-items-price,
+.dates-items-percent,
+.dates-items-rewards,
+.dates-items-comment,
+.items-comment-inner.long,
+.items-comment-inner.item {
+    padding-left: 4px;
+}
+
+
+
+.number-inner-items.svg {
+    margin-left: 6px;
+}
+
+.number-inner-items.hiden {
+    color: #71717A;
+}
+
+.items-number-inner,
+.dates-items-price,
+.dates-items-percent,
+.dates-items-rewards,
+.dates-items-comment {
+    display: flex;
+    align-items: center;
+}
+
+.dates-items-long {
+    width: 362px;
+    height: 100px;
+}
+
+.dates-items-price,
+.dates-items-rewards {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #18181B;
+}
+
+.dates-items-comment,
+.items-comment-inner.long {
+    width: 358px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.items-comment-inner.item {
+    margin-top: 4px;
+
+}
+
+/* Table End */
+
+/* Price Start */
+
+.total__price {
+    width: 416px;
+    height: 160px;
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 0px;
+    position: absolute;
+    left: 1345px;
+    top: 646px;
+}
+
+.price__total-rewards,
+.price__adjustments,
+.price__all {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.price__all {
+    margin-bottom: 0;
+}
+
+
+.total-rewards-text,
+.adjustments-text,
+.price__all-text {
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #71717A;
+
+    width: 256px;
+    height: 48px;
+
+}
+
+.total-rewards-text-wrapper {
+    width: 229px;
+}
+
+
+
+.price__all-text {
+
+    height: 24px;
+}
+
+
+.total-rewards-sum,
+.adjustments-sum,
+.price__all-sum {
+    width: 130px;
+    height: 24px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #71717A
+}
+
+
+
+.price__all-text,
+.price__all-sum {
+    color: #783CBD;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+/* Price End */
