@@ -128,9 +128,22 @@ body {
 .table__container {
     background: #FFFFFF;
     position: relative;
+
     /* width: 1602px; */
 
     /* padding: 10px 20px; */
+}
+
+.table__container::after {
+    content: "";
+    position: absolute;
+    background: #A1A1AA;
+    border-radius: 20px;
+    width: 4px;
+    height: 40px;
+    top: 45%;
+    right: 0;
+    margin: 0 4px;
 }
 
 
@@ -277,7 +290,7 @@ body {
 .dates-items-comment {
     display: flex;
     align-items: center;
-    
+
 }
 
 .dates-items-long {
