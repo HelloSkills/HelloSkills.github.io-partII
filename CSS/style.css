@@ -1036,6 +1036,18 @@ body {
         height: 48px;
     }
 
+    .items-number-inner.first, .dates-items-price.first, .dates-items-percent.first {
+        margin-bottom: 0;
+    }
+
+    .items-comment-inner.item {
+        display: none;
+    }
+
+    .flex.hiden {
+        display: none;
+    }
+
 }
 
 /* Adaptive End */
