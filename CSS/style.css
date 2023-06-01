@@ -824,6 +824,11 @@ body {
         position: relative;
     }
 
+    .table__dates-items.closed.1 {
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+
     .dates-items-date,
     .dates-items-number,
     .dates-items-price,
@@ -832,13 +837,13 @@ body {
     .dates-items-comment {
         width: 310px;
         height: 70px;
-        background: #FFFFFF;
+        background: none;
         padding: 0;
         margin: 0;
     }
 
     .items-number-inner {
-        background: #FFFFFF;
+        background: none;
         padding: 0;
         margin: 0;
 
@@ -958,7 +963,8 @@ body {
         height: 20px;
     }
 
-    .table__dates-items.closed {
+    .table__dates-items.closed,
+    .table__dates-items.open {
         box-shadow: none;
     }
 
@@ -1036,7 +1042,9 @@ body {
         height: 48px;
     }
 
-    .items-number-inner.first, .dates-items-price.first, .dates-items-percent.first {
+    .items-number-inner.first,
+    .dates-items-price.first,
+    .dates-items-percent.first {
         margin-bottom: 0;
     }
 
@@ -1046,6 +1054,11 @@ body {
 
     .flex.hiden {
         display: none;
+    }
+
+    .table__adaptive-container {
+        background: #FFFFFF;
+        border-radius: 10px;
     }
 
 }
