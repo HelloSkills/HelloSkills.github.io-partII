@@ -74,7 +74,8 @@ body {
 .adaptive__header,
 .adaptive__comment,
 .right-scroll,
-.MyShop__logo {
+.MyShop__logo,
+.comment__long {
     display: none;
 }
 
@@ -450,6 +451,9 @@ body {
     line-height: 24px;
 }
 
+.comment__short {
+    display: block;
+}
 
 /* Price End */
 
@@ -800,7 +804,9 @@ body {
     .table__dates-items {
         padding: 10px;
         margin-bottom: 10px;
+
         display: block;
+
     }
 
     .table__dates-items.closed {
@@ -809,6 +815,7 @@ body {
 
         background: #FFFFFF;
         border-radius: 10px;
+        position: relative;
     }
 
     .dates-items-date,
@@ -818,7 +825,7 @@ body {
     .dates-items-rewards,
     .dates-items-comment {
         width: 310px;
-        height: 50px;
+        height: 70px;
         background: #FFFFFF;
         padding: 0;
         margin: 0;
@@ -828,6 +835,7 @@ body {
         background: #FFFFFF;
         padding: 0;
         margin: 0;
+
     }
 
     .table__span-hiden {
@@ -838,7 +846,7 @@ body {
     .dates-items-date {
         background: #F5F3FF;
         padding: 0px 10px;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
 
     }
 
@@ -852,24 +860,105 @@ body {
         padding: 0px 10px;
     }
 
+    .table__container {
+        background: none;
 
+    }
 
-    /* .total__price {
+    .number-inner-span {
+        height: 24px;
+    }
+
+    .number-inner-span.table__span-hiden {
+        width: 290px;
+    }
+
+    .items-number-inner {
+        width: 310px;
+        height: 50px;
+
+    }
+
+    .table__span-hiden {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
-        gap: 10px;
+        align-items: center;
 
+        color: #71717A;
+    }
+
+    .dates-items-date,
+    .dates-items-number,
+    .dates-items-price,
+    .dates-items-percent,
+    .dates-items-rewards,
+    .dates-items-comment,
+    .items-number-inner,
+    .dates-items-long,
+    .comment__long {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #18181B;
+
+    }
+
+    .items-number-inner,
+    .dates-items-price,
+    .dates-items-percent,
+    .dates-items-rewards {
+        /* margin: 10px 0; */
+        height: 70px;
+        padding-top: 10px;
+        border-bottom: 1px solid #E4E4E7;
+
+    }
+
+    .dates-items-date {
+        height: 50px;
+    }
+
+    .comment__short {
+        display: none;
+    }
+
+    .comment__long {
+        display: block;
+        width: 310px;
+        height: 96px;
+
+    }
+
+    .items-number-inner.flex {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
         position: absolute;
-        width: 330px;
-        height: 160px;
-        left: calc(50% - 330px/2);
-        top: 2242px;
+        left: 10px;
+        bottom: 10px;
+        padding: 0;
+        margin: 0;
+        border: none;
+        background: none;
 
-        background: #F5F3FF;
-        border-radius: 10px;
-    } */
+        /* width: 44px; */
+        height: 20px;
+    }
+
+    .table__dates-items.closed {
+        box-shadow: none;
+    }
+
+    .items-comment-span.table__span-hiden {
+        padding-top: 10px;
+    }
 
 }
 
