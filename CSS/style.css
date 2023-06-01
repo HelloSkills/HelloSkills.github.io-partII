@@ -375,7 +375,7 @@ body {
 
 .total__price {
     width: 416px;
-    height: 160px;
+    height: 136px;
     padding: 10px;
     background: #FFFFFF;
     border-radius: 0px 0px 10px 0px;
@@ -411,6 +411,12 @@ body {
     height: 48px;
 
 }
+
+.adjustments-text {
+    height: 24px;
+
+}
+
 
 .total-rewards-text-wrapper {
     width: 229px;
@@ -958,6 +964,76 @@ body {
 
     .items-comment-span.table__span-hiden {
         padding-top: 10px;
+    }
+
+    .table__adaptive-container {
+        width: 330px;
+        height: 1419px;
+    }
+
+    .hiden {
+        display: none;
+    }
+
+    .table__dates-items.open {
+        height: 503px;
+        margin-bottom: 20px;
+    }
+
+    .table__dates-items.open.2 {
+        height: 503px;
+    }
+
+    .dates-items-long,
+    .items-comment-inner.long,
+    .items-comment-inner.item {
+        width: 310px;
+        background: none;
+    }
+
+    .table__dates-items.open.3 {
+        height: 443px;
+    }
+
+    .table__dates-items.open.4 {
+        height: 473px;
+    }
+
+    .total__price {
+        margin: 15px 15px 0;
+        left: 0;
+        top: 2361px;
+        width: 330px;
+        height: 160px;
+        background: #F5F3FF;
+        border-radius: 10px;
+        padding: 10px 0 10px 10px;
+    }
+
+    .price__total-rewards {
+        width: 320px;
+        height: 48px;
+        justify-content: space-between;
+    }
+
+    .total-rewards-text {
+        width: 152px;
+
+    }
+
+    .total-rewards-sum,
+    .adjustments-sum,
+    .price__all-sum {
+        width: 140px;
+        height: 24px;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+
+    }
+
+    .adjustments-text {
+        height: 48px;
     }
 
 }
