@@ -469,7 +469,7 @@ body {
 
 /* Adaptive Start */
 
-@media (min-width: 360px) and (max-width: 1288px) {
+@media (min-width: 361px) and (max-width: 1288px) {
 
     .container__main {
         margin: 57px 21px;
