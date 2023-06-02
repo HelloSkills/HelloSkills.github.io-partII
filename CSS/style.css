@@ -461,6 +461,10 @@ body {
     display: block;
 }
 
+.items-number-inner.flex.adaptive-bottom {
+    display: none;
+}
+
 /* Price End */
 
 /* Adaptive Start */
@@ -545,6 +549,11 @@ body {
         margin-right: 0;
     }
 
+    .dates-items-comment.hiden {
+        display: none;
+
+    }
+
     .adaptive__comment.first {
         margin-bottom: 4px;
     }
@@ -597,7 +606,8 @@ body {
 
     .dates-items-comment,
     .items-comment-inner.long,
-    .dates-items-long {
+    .dates-items-long,
+    .adaptive__comment {
         width: 146px;
 
     }
@@ -890,7 +900,7 @@ body {
 
     }
 
-    .table__span-hiden {
+    .items-comment-span.table__span-hiden {
         font-family: 'Segoe UI';
         font-style: normal;
         font-weight: 400;
@@ -930,6 +940,11 @@ body {
         padding-top: 10px;
         border-bottom: 1px solid #E4E4E7;
 
+    }
+
+    .items-comment-inner.long {
+        padding-bottom: 20px;
+        border-bottom: 2px solid #A1A1AA;
     }
 
     .dates-items-date {
@@ -982,13 +997,17 @@ body {
     }
 
     .table__dates-items.open {
-        height: 503px;
+        height: 472px;
         margin-bottom: 20px;
     }
+
+    .table__dates-items.closed {}
 
     .table__dates-items.open.2 {
         height: 503px;
     }
+
+
 
     .dates-items-long,
     .items-comment-inner.long,
@@ -1002,13 +1021,18 @@ body {
     }
 
     .table__dates-items.open.4 {
-        height: 473px;
+        height: 472px;
     }
 
+    /* .table__dates-items.open.2,
+    .table__dates-items.open.3, {
+        border: 2px solid #A1A1AA;
+    } */
+
     .total__price {
-        margin: 15px 15px 0;
+        margin: 0 15px;
         left: 0;
-        top: 2361px;
+        top: 2232px;
         width: 330px;
         height: 160px;
         background: #F5F3FF;
@@ -1061,6 +1085,47 @@ body {
         border-radius: 10px;
     }
 
+    .dates-items-comment.hiden {
+        display: block;
+    }
+
+    .table__span-hiden,
+    .items-comment-inner.long,
+    .comment__long.table__span-hiden {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+
+        color: #18181B;
+
+    }
+
+    .comment__long.table__span-hiden {
+        width: 300px;
+        height: 116px;
+        border-bottom: 2px solid #A1A1AA;
+    }
+
+    .comment__long.table__span-hiden.bnone {
+        border-bottom: none;
+    }
+
+    .table__dates-items.closed.\33 {
+        height: 430px;
+    }
+
+    .table__dates-items.closed.\34 {
+        height: 487px;
+    }
+
+    .items-number-inner.flex.adaptive-bottom {
+        display: flex;
+    }
+
+
+  
 }
 
 /* Adaptive End */

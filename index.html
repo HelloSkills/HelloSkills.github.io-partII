@@ -131,7 +131,7 @@
 
             <div class="table__dates">
 
-                <div class="table__dates-items closed 1"> <!-- 1 -->
+                <div class="table__dates-items closed 1 first__adaptive"> <!-- 1 -->
                     <div class="dates-items-date"><span class="items-date-span table__span-hiden">Дата
                             операции</span>21.03.2023</div>
                     <div class="dates-items-number">
@@ -153,12 +153,13 @@
                             ставка</span>100%</div>
                     <div class="dates-items-rewards"><span
                             class="items-rewards-span table__span-hiden">Вознаграждение</span>1 234 ₽</div>
-                    <div class="dates-items-comment"><span
+                    <div class="dates-items-comment hiden"><span
                             class="items-comment-span table__span-hiden">Комментарий</span><span
                             class="comment__short table__span-hiden">Отказ от заказа</span>
-                        <span class="comment__long table__span-hiden">Комментарий может быть длинным. Перебрасываем на
+                        <span class="comment__long table__span-hiden bnone">Комментарий может быть длинным. Перебрасываем на
                             следующую строчку Комментарий может быть длинным. Перебрасываем на следующую строчку</span>
                     </div>
+                    <span class="adaptive__comment">Длинный комм...</span>
 
                 </div>
 
@@ -199,9 +200,8 @@
                                 class="items-rewards-span table__span-hiden">Вознаграждение</span>1 234 ₽</div>
                         <div class="dates-items-long">
                             <div class="items-comment-inner long"><span
-                                class="items-comment-span table__span-hiden">Комментарий</span> Комментарий может быть длинным. Перебрасываем на
-                                следующую
-                                строчку Комментарий может быть длинным. </div> <span
+                                    class="items-comment-span table__span-hiden">Комментарий</span> Комментарий может быть длинным. Перебрасываем на
+                                    следующую строчку Комментарий может быть длинным. Перебрасываем на следующую строчку </div> <span
                                 class="adaptive__comment first">Длинный
                                 комм...</span>
                             <div class="items-comment-inner item">Отказ от заказа</div> <span
@@ -212,10 +212,10 @@
 
                     <div class="table__dates-items closed 3"> <!-- 3 -->
                         <div class="dates-items-date hiden"><span class="items-date-span table__span-hiden">Дата
-                            операции</span>21.03.2023</div>
+                                операции</span>21.03.2023</div>
                         <div class="dates-items-number">
-                            <div class="items-number-inner"><span
-                                class="number-inner-span table__span-hiden">Номер заказа</span>123345456</div>
+                            <div class="items-number-inner"><span class="number-inner-span table__span-hiden">Номер
+                                    заказа</span>123345456</div>
                             <div class="items-number-inner flex hiden">
                                 <div class="number-inner-items">Ещё 12</div>
                                 <svg class="number-inner-items svg" xmlns="http://www.w3.org/2000/svg" width="16"
@@ -225,23 +225,27 @@
                                 </svg>
                             </div>
                         </div>
-                        <div class="dates-items-price"><span
-                            class="items-price-span table__span-hiden">Стоимость товаров</span>-1 234 ₽</div>
-                        <div class="dates-items-percent"><span
-                            class="items-percent-span table__span-hiden">Процентная ставка</span>100%</div>
+                        <div class="dates-items-price"><span class="items-price-span table__span-hiden">Стоимость
+                                товаров</span>-1 234 ₽</div>
+                        <div class="dates-items-percent"><span class="items-percent-span table__span-hiden">Процентная
+                                ставка</span>100%</div>
                         <div class="dates-items-rewards"><span
-                            class="items-rewards-span table__span-hiden">Вознаграждение</span>-1 234 ₽</div>
+                                class="items-rewards-span table__span-hiden">Вознаграждение</span>-1 234 ₽</div>
                         <div class="dates-items-comment"><span
-                            class="items-comment-span table__span-hiden">Комментарий</span>Отказ от заказа</div>
+                                class="items-comment-span table__span-hiden">Комментарий</span><span
+                                class="comment__short table__span-hiden">Отказ от заказа</span>
+                                <span class="comment__long table__span-hiden">Комментарий может быть длинным. Перебрасываем на
+                                    следующую строчку Комментарий может быть длинным. Перебрасываем на следующую строчку</span>
+                            </div>
 
                     </div>
 
                     <div class="table__dates-items closed 4"> <!-- 4 -->
                         <div class="dates-items-date hiden"><span class="items-date-span table__span-hiden">Дата
-                            операции</span>21.03.2023</div>
+                                операции</span>21.03.2023</div>
                         <div class="dates-items-number">
-                            <div class="items-number-inner"><span
-                                class="number-inner-span table__span-hiden">Номер заказа</span>123345456</div>
+                            <div class="items-number-inner"><span class="number-inner-span table__span-hiden">Номер
+                                    заказа</span>123345456</div>
                             <div class="items-number-inner flex hiden">
                                 <div class="number-inner-items">Ещё 12</div>
                                 <svg class="number-inner-items svg" xmlns="http://www.w3.org/2000/svg" width="16"
@@ -251,41 +255,57 @@
                                 </svg>
                             </div>
                         </div>
-                        <div class="dates-items-price"><span
-                            class="items-price-span table__span-hiden">Стоимость товаров</span>1 234 ₽</div>
-                        <div class="dates-items-percent"><span
-                            class="items-percent-span table__span-hiden">Процентная ставка</span>100%</div>
+                        <div class="dates-items-price"><span class="items-price-span table__span-hiden">Стоимость
+                                товаров</span>1 234 ₽</div>
+                        <div class="dates-items-percent"><span class="items-percent-span table__span-hiden">Процентная
+                                ставка</span>100%</div>
                         <div class="dates-items-rewards"><span
-                            class="items-rewards-span table__span-hiden">Вознаграждение</span>1 234 ₽</div>
-                        <div class="dates-items-comment"><span
-                            class="items-comment-span table__span-hiden">Комментарий</span>Отказ от заказа</div>
+                                class="items-rewards-span table__span-hiden">Вознаграждение</span>1 234 ₽</div>
+                        <div class="dates-items-comment hiden"><span
+                                class="items-comment-span table__span-hiden">Комментарий</span><span
+                                class="comment__short table__span-hiden">Отказ от заказа</span>
+                                <span class="comment__long table__span-hiden bnone">Комментарий может быть длинным. Перебрасываем на
+                                    следующую строчку Комментарий может быть длинным. Перебрасываем на следующую строчку</span>
+                            </div>
+                        <span class="adaptive__comment">Длинный комм...</span>
+
+                        <div class="items-number-inner flex adaptive-bottom">
+                            <div class="number-inner-items">Скрыть</div>
+                            <svg class="number-inner-items svg" xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M3.33329 10L7.99996 5.33333L12.6666 10" stroke="#71717A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
 
                     </div>
-                    <div class="right-scroll"></div>
-                </div>
 
+                </div>
+                <div class="right-scroll"></div>
             </div>
 
         </div>
 
-        <div class="total__price">
-            <div class="price__total-rewards">
-                <div class="total-rewards-text">
-                    <div class="total-rewards-text-wrapper">Операции «выплата вознаграждения»</div>
-                </div>
-                <div class="total-rewards-sum">243 567,00 ₽</div>
-            </div>
+    </div>
 
-            <div class="price__adjustments">
-                <div class="adjustments-text">Операции «Корректировки»</div>
-                <div class="adjustments-sum">-1 234,00 ₽</div>
+    <div class="total__price">
+        <div class="price__total-rewards">
+            <div class="total-rewards-text">
+                <div class="total-rewards-text-wrapper">Операции «выплата вознаграждения»</div>
             </div>
-
-            <div class="price__all">
-                <div class="price__all-text">Итого</div>
-                <div class="price__all-sum">243 567,00 ₽</div>
-            </div>
+            <div class="total-rewards-sum">243 567,00 ₽</div>
         </div>
+
+        <div class="price__adjustments">
+            <div class="adjustments-text">Операции «Корректировки»</div>
+            <div class="adjustments-sum">-1 234,00 ₽</div>
+        </div>
+
+        <div class="price__all">
+            <div class="price__all-text">Итого</div>
+            <div class="price__all-sum">243 567,00 ₽</div>
+        </div>
+    </div>
 
     </div>
 
