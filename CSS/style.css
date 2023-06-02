@@ -1098,13 +1098,21 @@ body {
         font-size: 16px;
         line-height: 150%;
 
-        color: #18181B;
+        color: #71717A;
 
     }
 
 
-    .comment__long.table__span-hiden.bnone {
+    .comment__long.table__span-hiden{
         border-bottom: none;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+
+        color: #18181B;
+
     }
 
     .table__dates-items.closed.\33 {
@@ -1123,14 +1131,15 @@ body {
         height: 150px;
         border-bottom: 2px solid #A1A1AA;
         padding-left: 10px;
+        color: #18181B;
     }
 
     .dates-items-comment.adaptive {
         padding-left: 0;
     }
 
-   
- 
+
+
 }
 
 /* Adaptive End */
